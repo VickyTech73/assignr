@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #4B3F72;
+    --secondary-color: #2C5282;
+}
+
+.side-bar {
+  position: sticky;
+  top: 0;
+    width: 220px;
+    height: 100%;
+    background-color: #4B3F72;
+    color: white;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .sidebar-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+  }
+  
+  .sidebar-link:hover,
+  .sidebar-link.active {
+    background-color: #8E7CC3;
+  }
+  

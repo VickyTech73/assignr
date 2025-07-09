@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import Assignments from './components/Assignments';
+import AssignmentView from './components/AssignmentView';
+import Navbar from './components/Navbar';
+import SideBar from './components/SideBar';
+import { Routes, Route } from "react-router-dom"
+import About from './components/About';
+import Contact from './components/Contact';
+import UnderContruction from './components/UnderContruction';
+import Resources from './components/Resources';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <div className="container">
+        <SideBar />
+        <div className="content">
+          <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/assignments' element={<Assignments />} />
+              <Route path="/assignments/:id" element={<AssignmentView />} />
+              <Route path='/about' element={<About />} />
+              <Route path='/contact' element={<Contact />} />
+              <Route path='/profile' element={<UnderContruction />} />
+              <Route path='/notifications' element={<UnderContruction />} />
+              <Route path='/resources' element={<Resources />} />
+              <Route path='/upload' element={<UnderContruction />} />
+              <Route path='*' element={<h1>404 page not found</h1>} />
+          </Routes>
+        </div>
+      </div>
     </div>
   );
 }
