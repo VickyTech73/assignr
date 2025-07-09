@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Resources = () => {
   return (
     <motion.div
-      className="resources"
+      className="resources-page"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
@@ -17,13 +17,16 @@ const Resources = () => {
       <section className="resource-section">
         <h2>📺 YouTube Videos</h2>
         <ul>
-            <li><a href="https://www.youtube.com/watch?v=G3e-cpL7ofc" target="_blank" rel="noreferrer">React Tutorial for Beginners – Full Course</a></li>
             <li>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE?si=8HIdWWirFOFxGycN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </li>
             <li>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ESnrn1kAD4E?si=LGEy0nfWr-8NtJSL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </li>
+            <li>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/hdI2bqOjy3c?si=esHdvnP4qxMsHfIz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </li>
+
         </ul>
       </section>
 

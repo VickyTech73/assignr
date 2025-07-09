@@ -5,7 +5,7 @@
     margin: auto;
     background: #ffffff;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 4px 10px #0000000a;
     color: #2d3748;
   }
   
@@ -29,6 +29,7 @@
   .resources {
     margin-top: 12px;
     padding-left: 20px;
+    height: fit-content;
   }
   
   .instructions li,
@@ -44,6 +45,10 @@
   
   .resources a:hover {
     text-decoration: underline;
+  }
+
+  .resources {
+    height: fit-content;
   }
 
   .dLink {
@@ -95,6 +100,4 @@
   .back-icon {
     font-size: 14px;
   }
-  
-  
   

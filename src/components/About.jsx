@@ -43,10 +43,13 @@ const About = () => {
           unnecessary features — just straightforward challenges, friendly design, and
           space to grow at your own pace.
         </p>
+        <p>
+        Assignr was built to make it easier for new developers to learn by doing — not just watching tutorials. By giving them structured tasks, links, and a simple submission workflow, Assignr aims to be a starting point for better practice.
+        </p>
       </section>
 
       <footer className="about-footer">
-        Built with 💜 by Victor for learners like you.
+        Built with 💜 by Victor Horlanyo Agbozo for learners like you.
       </footer>
     </motion.div>
   );
