@@ -48,8 +48,25 @@ const About = () => {
         </p>
       </section>
 
+      <section className="about-section founder-section">
+        <h2>👤 About the Founder</h2>
+        <p>
+          Hey there! I'm <strong>Victor Agbozo</strong>, a passionate web developer and Computer Science student from Ghana.
+          I created Assignr to help fellow learners practice HTML, CSS, and JavaScript in a structured, practical way — because I know how tough it can be starting out.
+        </p>
+        <p>
+          I'm self-taught, still learning every day, and I built Assignr for people like you — the curious, the stuck, the improving.
+          Whether you're working on your first project or just need guided tasks, this platform is for you.
+        </p>
+        <p>
+          Assignr is just the beginning — stay tuned for more features, community support, and dev tools to help you grow.
+        </p>
+      </section>
+
+
       <footer className="about-footer">
         Built with 💜 by Victor Horlanyo Agbozo for learners like you.
+        <p className="version">&copy; Copyright 2025 Assignr MVP — v1.0.0</p>
       </footer>
     </motion.div>
   );

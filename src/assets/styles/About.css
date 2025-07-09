@@ -56,3 +56,17 @@
     color: #888;
   }
   
+  .founder-section {
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 32px;
+  }
+
+  .version {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #999;
+    margin-top: 20px;
+  }
+  
+  

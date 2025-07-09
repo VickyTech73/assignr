@@ -8,16 +8,16 @@ const assignments = [
     description: "Create a responsive personal profile card using HTML and CSS.",
     link: "/assignments/profile-card",
   },
-  {
-    title: "Landing Page",
-    description: "Build a simple landing page layout with a call-to-action.",
-    link: "/assignments/landing-page",
-  },
-  {
-    title: "Navigation Bar",
-    description: "Design a navigation bar with hover and active states.",
-    link: "/assignments/navbar",
-  },
+  // {
+  //   title: "Landing Page",
+  //   description: "Build a simple landing page layout with a call-to-action.",
+  //   link: "/assignments/landing-page",
+  // },
+  // {
+  //   title: "Navigation Bar",
+  //   description: "Design a navigation bar with hover and active states.",
+  //   link: "/assignments/navbar",
+  // },
 ];
 
 const Assignments = () => {

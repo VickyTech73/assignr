@@ -9,16 +9,16 @@ const latestAssignments = [
     description: "Create a responsive personal profile card using HTML and CSS.",
     link: "/assignments/profile-card",
   },
-  {
-    title: "Landing Page",
-    description: "Design a landing page layout using flexbox or grid.",
-    link: "/assignments/landing-page",
-  },
-  {
-    title: "Navbar Challenge",
-    description: "Build a styled navbar with active and hover states.",
-    link: "/assignments/navbar",
-  },
+  // {
+  //   title: "Landing Page",
+  //   description: "Design a landing page layout using flexbox or grid.",
+  //   link: "/assignments/landing-page",
+  // },
+  // {
+  //   title: "Navbar Challenge",
+  //   description: "Build a styled navbar with active and hover states.",
+  //   link: "/assignments/navbar",
+  // },
 ];
 
 const Home = () => {
@@ -63,7 +63,7 @@ const Home = () => {
               <h3>{item.title}</h3>
               <p>{item.description}</p>
               <Link to={item.link} className="card-link">
-                View
+                View Assignment
               </Link>
             </motion.div>
           ))}
