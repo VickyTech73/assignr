@@ -43,7 +43,7 @@ const Resources = () => {
         <h2>🎥 Recommended YouTube Channels</h2>
         <ul>
           <li><a rel="noreferrer" href="https://www.youtube.com/c/TraversyMedia" target="_blank">Traversy Media</a></li>
-          <li><a rel="noreferrer" href="https://www.youtube.com/c/NetNinja" target="_blank">The Net Ninja</a></li>
+          <li><a rel="noreferrer" href="https://www.youtube.com/@NetNinja" target="_blank">Net Ninja</a></li>
           <li><a rel="noreferrer" href="https://www.youtube.com/c/SimplilearnOfficial" target="_blank">Simplilearn</a></li>
           <li><a rel="noreferrer" href="https://www.youtube.com/c/CodeWithHarry" target="_blank">CodeWithHarry</a> (especially if you're comfortable with Hindi)</li>
         </ul>
