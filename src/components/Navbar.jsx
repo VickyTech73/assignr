@@ -20,25 +20,25 @@ const Navbar = () => {
       {/* Main Nav Links */}
       <ul className="nav-links">
         <li>
-          <NavLink to="/" className="nav-link">
+          <NavLink to="/assignr" className="nav-link">
             <FaHome className="icon" />
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/assignments" className="nav-link">
+          <NavLink to="/assignr/assignments" className="nav-link">
             <FaTasks className="icon" />
             Assignments
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" className="nav-link">
+          <NavLink to="/assignr/about" className="nav-link">
             <FaLightbulb className="icon" />
             About
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" className="nav-link">
+          <NavLink to="/assignr/contact" className="nav-link">
             <FaPhoneAlt className="icon" />
             Contact
           </NavLink>
