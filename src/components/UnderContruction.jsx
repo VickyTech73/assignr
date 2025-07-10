@@ -23,7 +23,7 @@ const UnderContruction = () => {
         what's new!
       </p>
 
-      <Link to="/" className="back-home-btn">
+      <Link to="/assignr" className="back-home-btn">
         <FaArrowLeft /> Back to Home
       </Link>
     </motion.div>

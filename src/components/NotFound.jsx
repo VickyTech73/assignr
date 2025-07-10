@@ -13,7 +13,7 @@ const NotFound = () => {
       <h1 className="code">404</h1>
       <p className="message">Oops! Page not found.</p>
       <p className="sub-message">The page you're looking for doesn't exist or has been moved.</p>
-      <Link to="/" className="home-btn">Back to Home</Link>
+      <Link to="/assignr" className="home-btn">Back to Home</Link>
     </motion.div>
   );
 };

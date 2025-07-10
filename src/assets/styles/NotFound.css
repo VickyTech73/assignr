@@ -28,7 +28,7 @@
   }
   
   .not-found .home-btn {
-    background-color: #2d3748;
+    background-color: #4b3f72;
     color: white;
     padding: 12px 24px;
     border-radius: 8px;
@@ -40,6 +40,6 @@
   }
   
   .not-found .home-btn:hover {
-    background-color: #1a202c;
+    background-color: #3a3060;
   }
   
