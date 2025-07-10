@@ -9,6 +9,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import UnderContruction from './components/UnderContruction';
 import Resources from './components/Resources';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -19,15 +20,15 @@ function App() {
         <div className="content">
           <Routes>
               <Route path='/assignr' element={<Home />} />
-              <Route path='/assignr/assignments' element={<Assignments />} />
-              <Route path="/assignr/assignments/:id" element={<AssignmentView />} />
-              <Route path='/assignr/about' element={<About />} />
-              <Route path='/assignr/contact' element={<Contact />} />
-              <Route path='/assignr/profile' element={<UnderContruction />} />
-              <Route path='/assignr/notifications' element={<UnderContruction />} />
-              <Route path='/assignr/resources' element={<Resources />} />
-              <Route path='/assignr/upload' element={<UnderContruction />} />
-              <Route path='*' element={<h1>404 page not found</h1>} />
+              <Route path='/assignments' element={<Assignments />} />
+              <Route path="/assignments/:id" element={<AssignmentView />} />
+              <Route path='/about' element={<About />} />
+              <Route path='/contact' element={<Contact />} />
+              <Route path='/profile' element={<UnderContruction />} />
+              <Route path='/notifications' element={<UnderContruction />} />
+              <Route path='/resources' element={<Resources />} />
+              <Route path='/upload' element={<UnderContruction />} />
+              <Route path='*' element={<NotFound />} />
           </Routes>
         </div>
       </div>

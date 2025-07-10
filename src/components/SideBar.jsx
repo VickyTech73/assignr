@@ -12,22 +12,22 @@ const SideBar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/assignr/assignments" className="sidebar-link">
+          <NavLink to="/assignments" className="sidebar-link">
             <FaTasks className="icon" /> Assignments
           </NavLink>
         </li>
         <li>
-          <NavLink to="/assignr/upload" className="sidebar-link">
+          <NavLink to="/upload" className="sidebar-link">
             <FaFileUpload className="icon" /> Upload Work
           </NavLink>
         </li>
         <li>
-          <NavLink to="/assignr/resources" className="sidebar-link">
+          <NavLink to="/resources" className="sidebar-link">
             <FaBookOpen className="icon" /> Resources
           </NavLink>
         </li>
         <li>
-          <NavLink to="/assignr/profile" className="sidebar-link">
+          <NavLink to="/profile" className="sidebar-link">
             <FaUser className="icon" /> Profile
           </NavLink>
         </li>

@@ -17,7 +17,7 @@ const assignmentData = {
       { name: "Example Card Design", url: "#" },
       { name: "CSS Flexbox Guide", url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/" }
     ],
-    zipLink: "../assets/assignments-temp/HTML-CSS-ASS-1.zip",
+    zipLink: "https://vickytech73.github.io/assignr/src/assets/assignments-temp/HTML-CSS-ASS-1.zip",
   },
   "landing-page": {
     title: "Landing Page",

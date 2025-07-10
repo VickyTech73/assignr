@@ -26,19 +26,19 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/assignr/assignments" className="nav-link">
+          <NavLink to="/assignments" className="nav-link">
             <FaTasks className="icon" />
             Assignments
           </NavLink>
         </li>
         <li>
-          <NavLink to="/assignr/about" className="nav-link">
+          <NavLink to="/about" className="nav-link">
             <FaLightbulb className="icon" />
             About
           </NavLink>
         </li>
         <li>
-          <NavLink to="/assignr/contact" className="nav-link">
+          <NavLink to="/contact" className="nav-link">
             <FaPhoneAlt className="icon" />
             Contact
           </NavLink>
