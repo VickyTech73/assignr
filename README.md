@@ -36,3 +36,16 @@ Whether you're a teacher assigning tasks or a student practicing frontend skills
 
 ## 📁 Folder Structure (simplified)
 
+assignr/
+├── public/
+│ └── index.html
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── pages/
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── styles/
+├── package.json
+└── README.md
+└── preview.png
