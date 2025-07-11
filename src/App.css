@@ -1,0 +1,18 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: #F7F7FB;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+  flex: 1;
+  display: flex;
+  overflow-y: scroll;
+}
+
+.container .content {
+  flex: 1;
+}
